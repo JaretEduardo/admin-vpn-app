@@ -1,0 +1,27 @@
+node_modules
+dist
+coverage
+
+# entornos y secretos — nunca deben entrar al contexto/imagen
+.env
+.env.*
+!.env.example
+
+# git
+.git
+.gitignore
+
+# logs
+*.log
+npm-debug.log*
+
+# editores/IDE
+.idea
+.vscode
+
+# artefactos locales
+.DS_Store
+*.tsbuildinfo
+
+# tests (no necesarios en la imagen de runtime)
+test
